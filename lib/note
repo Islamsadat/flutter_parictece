@@ -1,0 +1,23 @@
+mix in
+class / mix in
+
+in class not posibal multy parent in one chail
+
+in mix in is pousible one chail multy parents  and ther are no object
+
+
+
+Provider 
+Provider is slif mixin
+in Provider have page( 1 ui  design coding   view) and (2 b.l dart coding  viwe model)
+
+class counterProvider wiht changeNotifey{
+int _count =0;
+int get counter =>_counter;
+void icount(){
+    _count ++;
+    notify listenor();
+}
+
+}
+
